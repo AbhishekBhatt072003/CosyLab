@@ -1,4 +1,5 @@
 import React from 'react';
+import chefImage from '../assets/chef.png';
 
 const HeroSection = () => {
   return (
@@ -81,7 +82,7 @@ const HeroSection = () => {
             {/* chef image  */}
             <div className="relative animate-fade-in-right animation-delay-500 w-full max-w-xs lg:max-w-md">
               <img
-                src="/src/assets/chef.png"
+                src= {chefImage}
                 alt="Chef Illustration"
                 className="w-full h-auto object-contain"
               />

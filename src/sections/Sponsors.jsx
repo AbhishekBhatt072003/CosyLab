@@ -1,8 +1,10 @@
 import React from 'react';
+import foodScopeLogo from '../assets/sponsors/foodscope.png'
+
 
 const SponsorsSection = () => {
     const sponsors = [
-        { id: 1, name: 'FoodScope', logo: '/src/assets/sponsors/foodscope.png'},
+        { id: 1, name: 'FoodScope', logo: foodScopeLogo},
         { id: 2, name: 'Govt of India', logo: '/src/assets/sponsors/gov.png'},
         { id: 3, name: 'IIITD', logo: '/src/assets/sponsors/iiid.jpg' },
         { id: 4, name: 'Infosys', logo: '/src/assets/sponsors/infosys.png'},
